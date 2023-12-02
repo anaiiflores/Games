@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="@color/back_azul"
+        android:text="Replay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+
+        android:id="@+id/transitions_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/back_azul"
+        android:columnCount="7"
+        android:rowCount="7"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <!-- Poner capa para que no quede vacío-->
+
+        <Button
+            android:id="@+id/vacio1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but1"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but2"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but3"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio3"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio4"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio5"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio6"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but4"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but5"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but6"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio7"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio8"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but7"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but8"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but9"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but10"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but11"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but12"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but13"
+
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but14"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but15"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but16"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+        <!--centro:-->
+        <Button
+
+            android:id="@+id/centro17"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but18"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but19"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but20"
+
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but21"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but22"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but23"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but24"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but25"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but26"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but27"
+
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio9"
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/celeste_background"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio10"
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/celeste_background"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but28"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but29"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but30"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio11"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio12"
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio13"
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio14"
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but31"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but32"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/but33"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/celeste_background"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio15"
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="0"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/vacio16"
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+
+    </GridLayout>
+    <!--imagen ver-->
+    <ImageView
+        android:id="@+id/colorImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/violetta_foreground"
+        android:visibility="invisible"
+        app:layout_editor_absoluteX="135dp"
+        app:layout_editor_absoluteY="40dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="627dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
